@@ -544,7 +544,7 @@ h1, h2{
   color: #f00;
 }
 .Brothers h2{
-  font-size: 1em;
+  font-size: 2em;
   font-family: 'Rubik', helvetica, sans;
 }
 .Brothers a{
@@ -555,8 +555,8 @@ h1, h2{
 }
 
 .Brothers img{
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 
 .Brothers{
