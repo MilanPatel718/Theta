@@ -67,7 +67,7 @@ p{
 }
 
 h1, h2{
- font-family: 'Shrikhand', helvetica, sans;
+ font-family: 'Bowlby One SC', helvetica, sans;
   font-weight: 100;
   margin-top: 20px; 
 }
@@ -106,6 +106,7 @@ h1, h2{
 .Crest{
   flex: 1 1 auto;
   padding-left: 50px;
+  padding-bottom: 15vh;
 }
 
 
@@ -225,13 +226,13 @@ h1, h2{
 }
 
 .Pic-Descrip h1{
-  font-family: 'Shrikhand', helvetica, sans;
+  font-family: 'Anton', helvetica, sans;
   font-size: 4em;
   margin-top: -30px;
 }
 
 .Pic-Descrip p{
-   font-family: 'Anton', helvetica, sans;
+   font-family:  'Rubik', sans-serif, helvetica, sans;
    font-size: 2em;
 }
 
@@ -555,6 +556,13 @@ h1, h2{
 .Brothers img{
   width: 500px;
   height: 500px;
+}
+
+.Brothers{
+  background-image: url(images/overlay.png) ;
+}
+.Brothers .card{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 
