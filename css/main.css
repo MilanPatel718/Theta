@@ -123,7 +123,7 @@ h1, h2{
 }
 
 .hero-home{
-  background-image: url(/images/banner.jpg);
+  background-image: url(../images/banner.jpg);
   background-position: center top;
 
 }
@@ -551,6 +551,12 @@ h1, h2{
 .Brothers p{
   color: #059327;
 }
+
+.Brothers img{
+  width: 500px;
+  height: 500px;
+}
+
 
 .css_button {
   font-size: 17px;
