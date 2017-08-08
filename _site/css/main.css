@@ -112,7 +112,7 @@ h1, h2{
 
 /*HERO STYLES */
 .full-hero {
-  background-color: #c7dbfc;
+  background-color: #000;
   background-size: cover;
   box-sizing: border-box;
   height: 50vh;
@@ -129,24 +129,6 @@ h1, h2{
 
 }
 
-.Rush .hero-home{
-  background-image: url(../images/TempRush.jpg);
-  background-position: center top;
-
-}
-
-.Rush .full-hero{
-  background-color: #c7dbfc;
-  background-size: cover;
-  box-sizing: border-box;
-  height: 70vh;
-  width: 100vw;
-  padding-top: 10vh;
-  background-repeat: no-repeat;
-  flex: 1 0 auto;
-
-}
-
 .hero-content {
   color: #fff;
   position: relative;
@@ -156,6 +138,90 @@ h1, h2{
   top: 40%;
   transform: translate(0, -40%);
 }
+
+/*RUSH STYLES */
+.rush-sched{
+  background-image: url(../images/TempRush.jpg);
+  background-position: center top;
+
+}
+.rush-callout{
+  flex: 1 0 auto;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+
+}
+.rush-header{
+  background-image: url(../images/KingCobra.png);
+  padding-bottom: 35px;
+}
+.Rush .Flex-Pic{
+  background-color: #000;
+}
+
+.RushShow{
+  width: 60vw;
+  height: 60vh;
+  padding-left: 50px;
+}
+
+.Rush .full-hero {
+  background-color: #c7dbfc;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 20vh;
+  width: 100vw;
+  padding-top: 10vh;
+  background-repeat: no-repeat;
+  flex: 1 0 auto;
+  margin-bottom: -20px;
+
+}
+
+.Rush .hero-content{
+  color: #fff;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  padding-bottom: 90px;
+
+}
+
+.Rush .Pic-Descrip h1{
+  color: red;
+  font-weight: bold;
+}
+.Rush p{
+  color: #059327;
+}
+.Rush h2{
+  font-size: 2em;
+}
+
+.RutgersCol{
+  flex: 1 1 0;
+  bottom: 11.5%;
+  transform: translate(0, -11.5%);
+  
+
+}
+.NationalCol{
+  flex: 1 1 0;
+ 
+}
+
+.SocialCol{
+  flex: 1 1 0;
+  bottom: 27%;
+  transform: translate(0, -27%);
+   
+}
+
 
 /* HEADER STYLES */
 .header {
@@ -174,7 +240,7 @@ h1, h2{
   float: left;
   font-size: 1.5rem;
   padding: 0 0 0 25px;
-  color: #059327
+  color: #059327;
 }
 
 .header-logo {
@@ -440,6 +506,7 @@ h1, h2{
   margin: auto;
   flex: 1 1 auto;
   padding-left: 20px;
+  margin-top: 20px;
 }
 
 .mySlides {
@@ -474,13 +541,16 @@ h1, h2{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  color: #fff;
+  font-size: 2em;
   padding: 8px 12px;
-  position: absolute;
+  position: center;
   bottom: 8px;
-  width: 100%;
-  text-align: center;
+  left: 16px;
+ text-align: center;
+  background-color:black;
+  z-index:0;
+  margin-top: -4px;
 }
 
 
@@ -503,9 +573,9 @@ h1, h2{
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @-webkit-keyframes fade {
@@ -573,7 +643,7 @@ h1, h2{
   margin-top: -15px;
   text-transform: uppercase;
   font-weight: bolder;
-  background-color: #fff;
+  background-color: #c9cdd3;
   font-family: 'Anton', helvetica, sans;
 }
 
@@ -627,7 +697,7 @@ h1, h2{
   -moz-box-shadow: inset 1px 1px 0px 0px #ffffff;
   box-shadow: inset 1px 1px 0px 0px #ffffff;
   cursor: pointer;
-  color: #f00;
+  color: #fff;
   background-color: #000;
   display: inline-block;
 }
