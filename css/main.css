@@ -173,11 +173,12 @@ h1, h2{
 }
 .Rush .Flex-Pic{
   background-color: #000;
+  margin-top: 10px;
 }
 
 .RushShow{
-  width: 60vw;
-  height: 60vh;
+  width: 50vw;
+  height: 50vh;
 
 }
 
@@ -514,8 +515,8 @@ h1, h2{
 /*SLIDESHOW STYLES*/
 .slideshow-container {
 
-  width: 60vw;
-  height: 60vh;
+  width: 50vw;
+  height: 50vh;
   position: relative;
   margin: auto;
   flex: 1 1 auto;
