@@ -512,8 +512,7 @@ h1, h2{
 /*SLIDESHOW STYLES*/
 .slideshow-container {
 
-  width: 250px;
-  height: 250px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
   flex: 1 1 auto;
