@@ -65,6 +65,11 @@ p{
   margin-bottom: 30px;
   font-size: 2em
 }
+figure{
+  background-color: black;
+  color: white;
+  position: center;
+}
 
 h1, h2{
  font-family: 'Rubik', helvetica, sans;
@@ -546,16 +551,21 @@ h1, h2{
 
 /* Caption text */
 .text {
+
   color: #fff;
+
+  
+
+ /* color: #fff;
   font-size: 2em;
   padding: 8px 12px;
   position: center;
   bottom: 8px;
   left: 16px;
- text-align: center;
-  background-color:black;
-  z-index:0;
-  margin-top: -4px;
+  text-align: center;
+  background-color: black;
+  z-index: 0;
+  margin-top: -4px; */
 }
 
 
