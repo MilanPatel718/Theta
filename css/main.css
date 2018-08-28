@@ -169,13 +169,14 @@ h1, h2{
 }
 .rush-header{
   background-image: url(../images/KingCobra.png);
+  margin-bottom: 20px;
 }
 .Rush .Flex-Pic{
   background-color: #000;
 }
 
 .RushShow{
-  width: 60vw;
+  width: 40vw;
   height: 60vh;
 
 }
