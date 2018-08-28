@@ -169,7 +169,6 @@ h1, h2{
 }
 .rush-header{
   background-image: url(../images/KingCobra.png);
-  padding-top: -30px;
 }
 .Rush .Flex-Pic{
   background-color: #000;
@@ -513,7 +512,8 @@ h1, h2{
 /*SLIDESHOW STYLES*/
 .slideshow-container {
 
-  max-width: 1000px;
+  width: 250px;
+  height: 500px;
   position: relative;
   margin: auto;
   flex: 1 1 auto;
