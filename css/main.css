@@ -176,8 +176,8 @@ h1, h2{
 }
 
 .RushShow{
-  max-width: 60vw;
-  max-height: 60vh;
+  width: 60vw;
+  height: 60vh;
 
 }
 
