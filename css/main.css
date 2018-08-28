@@ -169,15 +169,15 @@ h1, h2{
 }
 .rush-header{
   background-image: url(../images/KingCobra.png);
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .Rush .Flex-Pic{
   background-color: #000;
 }
 
 .RushShow{
-  width: 20vw;
-  height: 60vh;
+  max-width: 60vw;
+  max-height: 60vh;
 
 }
 
@@ -514,7 +514,8 @@ h1, h2{
 /*SLIDESHOW STYLES*/
 .slideshow-container {
 
-  max-width: 1000px;
+  width: 60vw;
+  height: 60vh;
   position: relative;
   margin: auto;
   flex: 1 1 auto;
