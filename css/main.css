@@ -501,8 +501,8 @@ h1, h2{
 
 /*SLIDESHOW STYLES*/
 .slideshow-container {
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 50%;
   margin-top: 50px;
 
 /*
