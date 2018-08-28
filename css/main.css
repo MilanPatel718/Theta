@@ -175,8 +175,8 @@ h1, h2{
 }
 
 .RushShow{
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 1000px;
+  max-height: 1000px;
 }
 
 .Rush .full-hero {
@@ -512,7 +512,8 @@ h1, h2{
 /*SLIDESHOW STYLES*/
 .slideshow-container {
 
-  max-width: 1000px;
+  width: 1000px;
+  height: 1000px;
   position: relative;
   margin: auto;
   flex: 1 1 auto;
